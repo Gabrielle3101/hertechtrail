@@ -3,6 +3,7 @@ import {
   } from "react-router-dom";
 import Home from "./screens/home";
 import Auth from "./screens/auth";
+import Verify from "./screens/verify";
 
   export const Routes = createBrowserRouter([
     {
@@ -12,5 +13,9 @@ import Auth from "./screens/auth";
     {
       path: '/auth',
       element: <Auth />
+  },
+    {
+      path: '/verify',
+      element: <Verify />
   }
   ]); 
