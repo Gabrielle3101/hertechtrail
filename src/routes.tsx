@@ -6,6 +6,7 @@ import Auth from "./screens/auth";
 import Verify from "./screens/verify";
 import Info from "./screens/info";
 import Location from "./screens/location";
+import Success from "./screens/success";
 
   export const Routes = createBrowserRouter([
     {
@@ -27,5 +28,9 @@ import Location from "./screens/location";
     {
       path: '/location',
       element: <Location />
+  },
+    {
+      path: '/success',
+      element: <Success />
   }
   ]); 
