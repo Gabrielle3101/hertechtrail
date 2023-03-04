@@ -7,6 +7,7 @@ import Verify from "./screens/verify";
 import Info from "./screens/info";
 import Location from "./screens/location";
 import Success from "./screens/success";
+import Email from "./screens/email";
 
   export const Routes = createBrowserRouter([
     {
@@ -32,5 +33,9 @@ import Success from "./screens/success";
     {
       path: '/success',
       element: <Success />
+  },
+    {
+      path: '/email',
+      element: <Email />
   }
   ]); 
