@@ -9,7 +9,7 @@ const Info = () => {
   return (
     <div className='w-full h-screen flex items-center flex-col  px-6 pt-12'>
       <h3 className=' font-bold text-2xl mb-5'>Confirm your personal Information</h3>      
-      <img src={imageToAdd} alt="Image" />
+      <img className='mb-4' src={imageToAdd} alt="Image" />
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Jane Anna Doe' />
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='12-12-1992' />
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='080-000-000-00' />
@@ -17,7 +17,7 @@ const Info = () => {
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Obio-Akpor' />
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Port-Harcourt' />
       <Link to={`/location`} className='w-full'>
-      <Button label="Confirm" handleClick={() => {}} />
+      <Button label="Confirm →" handleClick={() => {}} />
       </Link>
     </div>
   )

@@ -7,9 +7,9 @@ const Success = () => {
   const [value, setValue] = React.useState('');
   return (
     <div className='w-full h-screen flex justify-center items-center flex-col  px-6 pt-12'>
-      <img src={imageToAdd} alt="Image" />
+      <img className='mb-4' src={imageToAdd} alt="Image" />
       <h3 className=' font-bold text-2xl mb-5'>Registration Successful</h3>
-      <Link to={`/pvc`} className='w-full'>
+      <Link to={`/email`} className='w-full'>
       <Button label="Okay, Thanks" handleClick={() => {}} />
       </Link>
     </div>

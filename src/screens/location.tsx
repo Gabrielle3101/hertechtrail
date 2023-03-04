@@ -12,7 +12,7 @@ const Location = () => {
       <h5 className=' font-semibold text-1xl mb-3'>Choose PVC collection centre</h5>
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Select Location' />
       <Link to={`/success`} className='w-full'>
-      <Button label="Submit" handleClick={() => {}} />
+      <Button label="Submit →" handleClick={() => {}} />
       </Link>
     </div>
   )

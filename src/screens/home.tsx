@@ -12,7 +12,7 @@ const Home = () => {
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Choose ID type' />
       <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Enter ID No.' />
       <Link to={`/auth`} className='w-full'>
-      <Button label="Proceed" handleClick={() => {}} />
+      <Button label="Proceed →" handleClick={() => {}} />
       </Link>
     </div>
   )
