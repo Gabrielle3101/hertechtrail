@@ -7,7 +7,7 @@ const Email = () => {
   const [value, setValue] = React.useState('');
   return (
     <div className='w-full h-screen flex items-center flex-col  px-6 pt-12'>
-        <div className="bg-green-600 p-5 m-0 w-full h-32">
+        <div className="bg-green-600 flex justify-center items-center p-5 m-0 w-full h-32">
             <h3 className="font-bold text-white">Your PVC Is Ready!</h3>
         </div>
       <h3 className=' font-bold text-2xl mb-5'>Hello Jane👋</h3>
