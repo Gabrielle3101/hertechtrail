@@ -8,6 +8,8 @@ import Info from "./screens/info";
 import Location from "./screens/location";
 import Success from "./screens/success";
 import Email from "./screens/email";
+import Status from "./screens/status";
+import Lcs from "./screens/lcs";
 
   export const Routes = createBrowserRouter([
     {
@@ -37,5 +39,13 @@ import Email from "./screens/email";
     {
       path: '/email',
       element: <Email />
+  },
+    {
+      path: '/status',
+      element: <Status />
+  },
+    {
+      path: '/lcS',
+      element: <Lcs />
   }
   ]); 
