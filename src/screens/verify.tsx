@@ -11,7 +11,7 @@ const Verify = () => {
       <h3 className=' font-bold text-2xl mb-5'>Verify Your Identity</h3>
       <h5 className=' font-semibold text-1xl mb-3'>Enter the 6-digit OTP sent to 0803xxxxx94</h5>
       <img className='mb-5' src={imageToAdd} alt="Image" />
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder=' '  />
+      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder=' ' min='6' max='6' />
       <div className='flex'>
             <h5 className=' font-semibold text-gray-500 text-1xl mb-3'>Didn’t receive an OTP? &nbsp; </h5>
             <a className='text-green-600' href="">Resend</a>

@@ -15,10 +15,10 @@ const Lcs = () => {
         <h3>20-19-02-020</h3>
       </div>
       <h5 className=' font-semibold text-1xl mb-3'>Polling Unit</h5>
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Rd 1 HerTechTrail Street, Port Harcourt, 
+      <TextInput min='1' max='60' value={value} handleChange={(e) => setValue(e)} placeholder='Rd 1 HerTechTrail Street, Port Harcourt, 
 Rivers State' />
       <h5 className=' font-semibold text-1xl mb-3'>Collection Centre</h5>
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Rd 1 HerTechTrail Street, Port Harcourt, 
+      <TextInput min='1' max='60' value={value} handleChange={(e) => setValue(e)} placeholder='Rd 1 HerTechTrail Street, Port Harcourt, 
 Rivers State' />
         <div className='flex'>
             <h5 className='font-semibold text-gray-500 text-1xl mb-3'>Change collection centre?&nbsp;</h5>

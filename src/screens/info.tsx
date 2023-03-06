@@ -10,12 +10,12 @@ const Info = () => {
     <div className='w-full h-screen flex items-center flex-col  px-6 pt-12'>
       <h3 className=' font-bold text-2xl mb-5'>Confirm your personal Information</h3>      
       <img className='mb-4' src={imageToAdd} alt="Image" />
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Jane Anna Doe' />
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='12-12-1992' />
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='080-000-000-00' />
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Rivers State' />
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Obio-Akpor' />
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Port-Harcourt' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='Jane Anna Doe' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='12-12-1992' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='080-000-000-00' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='Rivers State' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='Obio-Akpor' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='Port-Harcourt' />
       <Link to={`/location`} className='w-full'>
       <Button label="Confirm →" handleClick={() => {}} />
       </Link>

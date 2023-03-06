@@ -8,9 +8,9 @@ const Location = () => {
   return (
     <div className='w-full h-screen flex flex-col  px-6 pt-12'>
       <h5 className=' font-semibold text-1xl mb-3'>Choose Polling Unit</h5>
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Select Location' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='Select Location' />
       <h5 className=' font-semibold text-1xl mb-3'>Choose PVC collection centre</h5>
-      <TextInput value={value} handleChange={(e) => setValue(e)} placeholder='Select Location' />
+      <TextInput min='1' max='30' value={value} handleChange={(e) => setValue(e)} placeholder='Select Location' />
       <Link to={`/success`} className='w-full'>
       <Button label="Submit →" handleClick={() => {}} />
       </Link>
