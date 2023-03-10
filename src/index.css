@@ -39,7 +39,7 @@
   }
   button.active {
     color: #fff;
-    background-color: #0069d9;
+    background-color: rgb(22 163 74);
   }
   .dropdown {
     position: absolute;
@@ -48,7 +48,7 @@
     border: 1px solid rgb(197, 197, 197);
     background: #fff;
     padding: 0;
-    color: #0062cc;
+    color: rgb(22 163 74);
     text-align: left;
     border-radius: 0.25rem;
   }
@@ -60,7 +60,7 @@
   }
   .dropdown > p:hover {
     color: #fff;
-    background-color: #0062cc;
+    background-color: rgb(22 163 74);
   }
   .dropdown > p:last-child {
     border-bottom: 0 none;
