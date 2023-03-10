@@ -9,7 +9,8 @@
     background-color: rgb(243 244 246 );
     border-radius: .375rem;
     color: grey;
-    padding: 0 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
   button {
     position: relative;
