@@ -9,6 +9,7 @@
     background-color: rgb(243 244 246 );
     border-radius: .375rem;
     color: grey;
+    padding: 0 0.5rem;
   }
   button {
     position: relative;
@@ -17,7 +18,8 @@
     background-color: #ddd;
     border-color: #ddd;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 10px;
     white-space: nowrap;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -32,7 +34,8 @@
   }
   button:hover {
     color: #fff;
-    background-color: #0069d9;
+    background-color: rgb(22 163 74);
+    transition: all ease .75s;
   }
   button.active {
     color: #fff;
