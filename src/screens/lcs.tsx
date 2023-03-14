@@ -24,7 +24,7 @@ Rivers State' />
             <h5 className='font-semibold text-gray-500 text-1xl mb-3'>Change collection centre?&nbsp;</h5>
             <a className='text-green-600' href="">Resend</a>
       </div>
-      <Link to={`/`} className='w-full'>
+      <Link to={`/login`} className='w-full'>
       <Button label="Close" handleClick={() => {}} />
       </Link>
     </div>

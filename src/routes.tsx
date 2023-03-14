@@ -10,6 +10,15 @@ import Success from "./screens/success";
 import Email from "./screens/email";
 import Status from "./screens/status";
 import Lcs from "./screens/lcs";
+import Login from "./screens/login";
+import Verify2 from "./screens/verify2";
+import Welcome from "./screens/welcome";
+import Auth2 from "./screens/auth2";
+import Select from "./screens/select";
+import All from "./screens/all";
+import Otp from "./screens/otp";
+import Confirm from "./screens/confirm";
+import Completed from "./screens/completed";
 
   export const Routes = createBrowserRouter([
     {
@@ -45,7 +54,43 @@ import Lcs from "./screens/lcs";
       element: <Status />
   },
     {
-      path: '/lcS',
+      path: '/lcs',
       element: <Lcs />
+  },
+    {
+        path: '/login',
+        element: <Login />
+    },
+    {
+      path: '/verify2',
+      element: <Verify2 />
+  },
+    {
+      path: '/welcome',
+      element: <Welcome />
+  },
+    {
+      path: '/auth2',
+      element: <Auth2 />
+  },
+    {
+    path: '/select',
+    element: <Select />
+  },
+    {
+      path: '/all',
+      element: <All />
+  },
+    {
+      path: '/otp',
+      element: <Otp />
+  },
+    {
+      path: '/confirm',
+      element: <Confirm />
+  },
+    {
+      path: '/completed',
+      element: <Completed />
   }
   ]); 
